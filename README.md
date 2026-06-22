@@ -19,7 +19,10 @@ The artifacts included in my ePortfolio work together to demonstrate the full ra
 Together, these artifacts show my growth as a developer and my ability to apply computer science concepts in practical ways. They demonstrate my experience with front-end design, back-end logic, database management, algorithmic thinking, testing, debugging, and security awareness. More importantly, they show my ability to take an existing project, evaluate its weaknesses, and improve it with clear goals in mind. This ePortfolio represents both the technical skills I have developed and the professional mindset I will bring into the computer science field.
 
 ## Code Review
+Code review plays an important function in the development of software. A code review is when a developer reviews code for quality and consistency and to discover flaws. Code review allows poor code to be amended and helps weed out potential bugs and/or security flaws. It can also be viewed as a good tool for learning and developing skills.
 
+Code Review:
+https://youtu.be/74VhwfYXxSY
 
 ## Enhancement One: Software Design and Engineering
 <img width="256" height="552" alt="Screenshot 2026-06-22 at 1 21 40 AM" src="https://github.com/user-attachments/assets/6acf3053-3267-4582-a770-5ac3d6cfd238" />
