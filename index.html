@@ -3,128 +3,243 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Terius Thweatt | CS 499 ePortfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="CS 499 Computer Science ePortfolio showcasing software engineering, algorithms and data structures, databases, and security-aware development." />
+
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <header class="hero">
-    <nav class="navbar">
-      <h2>Terius Thweatt</h2>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#top" class="logo">Terius Thweatt</a>
+
       <div class="nav-links">
         <a href="#self-assessment">Self-Assessment</a>
         <a href="#code-review">Code Review</a>
         <a href="#artifacts">Artifacts</a>
+        <a href="#outcomes">Outcomes</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
-    <div class="hero-content">
-      <h1>CS 499 Computer Science ePortfolio</h1>
-      <p>
-        A professional portfolio showcasing software engineering, algorithms and data structures,
-        database development, and security-focused computing practices.
-      </p>
-      <a class="button" href="#artifacts">View Artifacts</a>
-    </div>
+    <section id="top" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">CS 499 Computer Science Capstone</p>
+        <h1>Professional Computer Science ePortfolio</h1>
+        <p class="hero-description">
+          A portfolio showcasing software engineering, algorithms and data structures,
+          database development, and security-focused computing practices.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#artifacts">View Artifacts</a>
+          <a class="btn secondary" href="https://youtu.be/74VhwfYXxSY" target="_blank">Watch Code Review</a>
+          <a class="btn secondary" href="https://github.com/TMT5/tmt5.github.io" target="_blank">View GitHub Repo</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h2>Portfolio Focus</h2>
+        <ul>
+          <li>Software Engineering and Design</li>
+          <li>Algorithms and Data Structures</li>
+          <li>Database Design and Optimization</li>
+          <li>Security-Aware Development</li>
+        </ul>
+      </aside>
+    </section>
   </header>
 
   <main>
     <section id="self-assessment" class="section">
-      <h2>Professional Self-Assessment</h2>
-      <p>
-        Throughout my computer science program, I have developed a stronger understanding of
-        software development, problem-solving, databases, algorithms, security, and professional
-        communication. Completing my coursework and building my ePortfolio helped me reflect on
-        my growth as a developer and gave me the opportunity to showcase the skills I have gained
-        across multiple areas of computer science.
-      </p>
+      <div class="section-heading">
+        <p class="eyebrow">Introduction</p>
+        <h2>Professional Self-Assessment</h2>
+      </div>
 
-      <p>
-        My coursework challenged me to work with different programming languages, frameworks,
-        and development tools, including Java, Python, JavaScript, Android Studio, MongoDB,
-        SQL, Node.js, Express, Angular, and cloud-based development environments.
-      </p>
+      <div class="content-box">
+        <p>
+          Throughout my computer science program, I developed a stronger understanding of software
+          development, problem-solving, databases, algorithms, security, and professional communication.
+          Completing my coursework and building my ePortfolio helped me reflect on my growth as a
+          developer while showcasing the skills I gained across multiple areas of computer science.
+        </p>
 
-      <p>
-        The artifacts included in this portfolio demonstrate my ability to evaluate existing
-        projects, identify areas for improvement, and enhance software through stronger design,
-        efficient data processing, database improvements, and security-aware development.
-      </p>
+        <p>
+          My coursework challenged me to work with Java, Python, JavaScript, Android Studio, MongoDB,
+          SQL, Node.js, Express, Angular, and cloud-based development environments. These experiences
+          helped me become more adaptable and confident when learning new technologies.
+        </p>
+
+        <p>
+          The artifacts included in this portfolio demonstrate my ability to evaluate existing projects,
+          identify areas for improvement, and enhance software through stronger design, efficient data
+          processing, database improvements, and security-aware development.
+        </p>
+
+        <a class="text-link" href="README.md">Read the full self-assessment in the README</a>
+      </div>
     </section>
 
-    <section id="code-review" class="section">
-      <h2>Code Review</h2>
-      <p>
-        My code review explains the original functionality of my selected artifacts, analyzes
-        areas for improvement, and outlines the planned enhancements for software engineering,
-        algorithms and data structures, and databases.
-      </p>
-      <a class="button" href="https://youtu.be/74VhwfYXxSY" target="_blank">Watch Code Review</a>
+    <section id="code-review" class="section split-section">
+      <div>
+        <p class="eyebrow">Code Review</p>
+        <h2>Informal Code Review</h2>
+        <p>
+          My code review explains the original functionality of my selected artifacts, analyzes areas
+          for improvement, and outlines the planned enhancements for software engineering, algorithms
+          and data structures, and databases.
+        </p>
+      </div>
+
+      <a class="btn primary" href="https://youtu.be/74VhwfYXxSY" target="_blank">
+        Watch Code Review
+      </a>
     </section>
 
     <section id="artifacts" class="section">
-      <h2>Portfolio Artifacts</h2>
-      <p>
-        Each artifact below includes the original work, enhanced version, and narrative explaining
-        the skills demonstrated and the course outcomes addressed.
-      </p>
+      <div class="section-heading">
+        <p class="eyebrow">Capstone Work</p>
+        <h2>Portfolio Artifacts</h2>
+        <p>
+          Each artifact includes the original work, enhanced version, and narrative explaining the
+          skills demonstrated and course outcomes addressed.
+        </p>
+      </div>
 
-      <div class="card-grid">
+      <div class="artifact-grid">
+        <article class="artifact-card">
+          <div class="card-top">
+            <span class="tag">Enhancement One</span>
+            <h3>Software Engineering and Design</h3>
+          </div>
 
-        <article class="card">
-          <h3>Enhancement One</h3>
-          <h4>Software Engineering and Design</h4>
           <p>
             Android Inventory App enhanced with improved UI/UX, search, sorting, filtering,
             edit functionality, swipe-to-delete, Room database integration, and Android notifications.
           </p>
+
           <p class="skills">Java · Android Studio · Room · RecyclerView · UI/UX</p>
+
           <div class="card-links">
-            <a href="Originals/" target="_blank">Original Code</a>
-            <a href="Enhancements/" target="_blank">Enhanced Code</a>
-            <a href="Narratives/" target="_blank">Narrative</a>
+            <a href="Originals/Trackr%20Original/" target="_blank">Original Code</a>
+            <a href="Enhancements/CS%20360/Trackr/" target="_blank">Enhanced Code</a>
+            <a href="Narratives/Enhancement%201%20Narrative.docx" target="_blank">Narrative</a>
           </div>
         </article>
 
-        <article class="card">
-          <h3>Enhancement Two</h3>
-          <h4>Algorithms and Data Structures</h4>
+        <article class="artifact-card">
+          <div class="card-top">
+            <span class="tag">Enhancement Two</span>
+            <h3>Algorithms and Data Structures</h3>
+          </div>
+
           <p>
-            Animal Shelter Dashboard enhanced with dictionary-based counts, set-based unique
-            values, summary statistics, and single-pass O(n) data processing.
+            Animal Shelter Dashboard enhanced with dictionary-based counts, set-based unique values,
+            summary statistics, and single-pass O(n) data processing.
           </p>
+
           <p class="skills">Python · Dash · Dictionaries · Sets · O(n)</p>
+
           <div class="card-links">
-            <a href="Originals/" target="_blank">Original Code</a>
-            <a href="Enhancements/" target="_blank">Enhanced Code</a>
-            <a href="Narratives/" target="_blank">Narrative</a>
+            <a href="Originals/Animal%20Shelter%20Original.ipynb" target="_blank">Original Code</a>
+            <a href="Enhancements/CS%20340/ProjectTwoDashboard%20%281%29.ipynb" target="_blank">Enhanced Code</a>
+            <a href="Narratives/Enhancement%202%20Narrative.docx" target="_blank">Narrative</a>
           </div>
         </article>
 
-        <article class="card">
-          <h3>Enhancement Three</h3>
-          <h4>Databases</h4>
+        <article class="artifact-card">
+          <div class="card-top">
+            <span class="tag">Enhancement Three</span>
+            <h3>Databases</h3>
+          </div>
+
           <p>
             MongoDB database layer enhanced with input validation, safer query handling,
             projections, cleaner data access logic, and improved reliability.
           </p>
+
           <p class="skills">Python · MongoDB · CRUD · Validation · Projections</p>
+
           <div class="card-links">
-            <a href="Originals/" target="_blank">Original Code</a>
-            <a href="Enhancements/" target="_blank">Enhanced Code</a>
-            <a href="Narratives/" target="_blank">Narrative</a>
+            <a href="Originals/Animal%20Shelter%20Original.ipynb" target="_blank">Original Code</a>
+            <a href="Enhancements/CS%20340/CRUD_Python_Module.py" target="_blank">Enhanced Code</a>
+            <a href="Narratives/Enhancement%203%20Narrative.docx" target="_blank">Narrative</a>
           </div>
         </article>
-
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>
-        GitHub: <a href="https://github.com/TMT5" target="_blank">github.com/TMT5</a>
-      </p>
+    <section id="screenshots" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Visual Evidence</p>
+        <h2>Project Screenshots</h2>
+        <p>
+          These screenshots show the enhanced mobile application and dashboard functionality included
+          in the portfolio.
+        </p>
+      </div>
+
+      <h3 class="screenshot-title">Enhancement One: Android Inventory App</h3>
+      <div class="screenshot-grid mobile-grid">
+        <img src="https://github.com/user-attachments/assets/6acf3053-3267-4582-a770-5ac3d6cfd238" alt="Android inventory app screenshot one">
+        <img src="https://github.com/user-attachments/assets/2679b045-75d1-46d9-87a2-e810d67c8998" alt="Android inventory app screenshot two">
+        <img src="https://github.com/user-attachments/assets/eaa1a1c5-eb70-43d4-8e1a-844f9d1a43cc" alt="Android inventory app screenshot three">
+        <img src="https://github.com/user-attachments/assets/6d9f7b10-76d5-43ff-b377-ddc6cb059ac7" alt="Android inventory app screenshot four">
+      </div>
+
+      <h3 class="screenshot-title">Enhancement Two: Animal Shelter Dashboard</h3>
+      <div class="screenshot-grid dashboard-grid">
+        <img src="https://github.com/user-attachments/assets/a2a9d198-3408-40d9-9aec-73d712b0763e" alt="Animal shelter dashboard screenshot one">
+        <img src="https://github.com/user-attachments/assets/9cbf8134-89c7-45ae-a4f5-5747f906fdb4" alt="Animal shelter dashboard screenshot two">
+      </div>
+    </section>
+
+    <section id="outcomes" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Rubric Alignment</p>
+        <h2>Course Outcomes Alignment</h2>
+      </div>
+
+      <div class="outcome-list">
+        <div class="outcome-item">
+          <h3>Collaborative Environments and Decision Making</h3>
+          <p>Code review, stakeholder-focused project discussion, and client-based dashboard improvements.</p>
+        </div>
+
+        <div class="outcome-item">
+          <h3>Professional Communication</h3>
+          <p>Self-assessment, code review video, artifact narratives, screenshots, and organized portfolio structure.</p>
+        </div>
+
+        <div class="outcome-item">
+          <h3>Algorithmic Computing Solutions</h3>
+          <p>Single-pass O(n) processing, dictionaries, sets, filtering, and summary statistics.</p>
+        </div>
+
+        <div class="outcome-item">
+          <h3>Computing Tools and Practices</h3>
+          <p>Android Studio, Java, Python, Dash, MongoDB, Room, GitHub Pages, and full stack development tools.</p>
+        </div>
+
+        <div class="outcome-item">
+          <h3>Security Mindset</h3>
+          <p>Input validation, database query protection, projection control, authentication concepts, and safer application behavior.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="eyebrow">Contact</p>
+      <h2>Connect With Me</h2>
+      <p>View my portfolio source code and additional work through GitHub.</p>
+
+      <div class="hero-buttons center-buttons">
+        <a class="btn primary" href="https://github.com/TMT5" target="_blank">GitHub Profile</a>
+        <a class="btn secondary-dark" href="README.md">View README</a>
+      </div>
     </section>
   </main>
 
