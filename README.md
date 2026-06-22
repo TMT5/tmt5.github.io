@@ -73,6 +73,52 @@ This enhancement helped me better understand how important data structures are w
 
 
 ## Enhancement Three: Databases
+'''
+ def read(self, data, projection=None):
+        # If no query is provided, return all records
+        if data is None or data == {}:
+            query = {}
+
+        # Verifies inputted data is correct type
+        elif not isinstance(data, dict):
+            raise Exception("Invalid data type")
+
+        else:
+            query = {}
+
+            for key, value in data.items():
+                # Verifies that key and/or value is not null
+                if key is None or value is None:
+                    return []
+
+                # Verifies key is correct type
+                if not isinstance(key, str):
+                    return []
+
+                # Verifies key is not empty
+                if key.isspace() or key == "":
+                    return []
+
+                # Verifies value is correct type and normalizes value
+                if isinstance(value, str):
+                    cleaned = value.strip()
+
+                    if cleaned == "":
+                        return []
+
+                    query[key] = cleaned
+
+                else:
+                    query[key] = value
+
+        # Default projection removes MongoDB ObjectId
+        if projection is None:
+            projection = {"_id": 0}
+
+        # Returns a list with matching results of query
+        results = list(self.database.animals.find(query, projection))
+        return results
+'''
 The artifact I selected for this enhancement is my CS 340 Animal Shelter dashboard. This artifact is a dashboard application that connects to a MongoDB database containing animal shelter records. The dashboard allows users to view, filter, and analyze animal data based on different rescue categories. It was originally created in CS 340 as part of a client-based project for Grazioso Salvare, where the goal was to build a tool that could help identify animals that may be good candidates for rescue training.
 
 I selected this artifact for my ePortfolio because it demonstrates my ability to work with databases, retrieve information from a large dataset, and connect database operations to a functional user interface. The artifact showcases my skills in MongoDB, Python, data filtering, and dashboard development. Before the enhancement, the dashboard could retrieve and display data, but the database functionality could be improved. For this enhancement, I focused on improving the MongoDB functionality by updating the read method, improving validation, supporting projections, and preparing the database layer for better performance. These changes help reduce unnecessary data retrieval and make the dashboard more efficient and reliable.
