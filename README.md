@@ -21,8 +21,7 @@ Together, these artifacts show my growth as a developer and my ability to apply 
 ## Code Review
 Code review plays an important function in the development of software. A code review is when a developer reviews code for quality and consistency and to discover flaws. Code review allows poor code to be amended and helps weed out potential bugs and/or security flaws. It can also be viewed as a good tool for learning and developing skills.
 
-Code Review:
-https://youtu.be/74VhwfYXxSY
+[https://youtu.be/74VhwfYXxSY](My Code Review)
 
 ## Enhancement One: Software Design and Engineering
 <img width="256" height="552" alt="Screenshot 2026-06-22 at 1 21 40 AM" src="https://github.com/user-attachments/assets/6acf3053-3267-4582-a770-5ac3d6cfd238" />
