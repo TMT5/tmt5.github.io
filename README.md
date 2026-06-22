@@ -17,3 +17,9 @@ Security became another important part of my computer science foundation. Throug
 The artifacts included in my ePortfolio work together to demonstrate the full range of my computer science skills. Each artifact represents a different area of the program and shows how I can improve existing software through thoughtful enhancements. One artifact focuses on software engineering and design by improving an Android inventory application with stronger usability, navigation, and maintainability. Another artifact focuses on algorithms and data structures by improving the way dashboard data is processed, filtered, and summarized. The database artifact demonstrates my ability to work with stored data, optimize database interactions, and support more reliable application performance.
 
 Together, these artifacts show my growth as a developer and my ability to apply computer science concepts in practical ways. They demonstrate my experience with front-end design, back-end logic, database management, algorithmic thinking, testing, debugging, and security awareness. More importantly, they show my ability to take an existing project, evaluate its weaknesses, and improve it with clear goals in mind. This ePortfolio represents both the technical skills I have developed and the professional mindset I will bring into the computer science field.
+
+## Enhancement One: Software Design and Engineering
+
+## Enhancement Two: Algorithms and Data Structures
+
+## Enhancement Three: Databases
