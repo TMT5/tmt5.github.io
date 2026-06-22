@@ -26,6 +26,9 @@ Code review plays an important function in the development of software. A code r
 ## Enhancement One: Software Design and Engineering
 <img width="256" height="552" alt="Screenshot 2026-06-22 at 1 21 40 AM" src="https://github.com/user-attachments/assets/6acf3053-3267-4582-a770-5ac3d6cfd238" />
 
+<img width="255" height="549" alt="Screenshot 2026-06-22 at 1 23 47 AM" src="https://github.com/user-attachments/assets/2679b045-75d1-46d9-87a2-e810d67c8998" />
+
+
 <img width="257" height="264" alt="Screenshot 2026-06-22 at 1 24 24 AM" src="https://github.com/user-attachments/assets/6d9f7b10-76d5-43ff-b377-ddc6cb059ac7" />
 
 
